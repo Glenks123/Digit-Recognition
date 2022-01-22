@@ -36,10 +36,6 @@ def predict_digit(img):
     # Normalizing img
     img = MinMaxScaler().fit_transform(img)
     # predicting by feed forward propagating
-    # for i in range(img.shape[0]):
-    #     if (img[i] == 1.):
-    #         img[i] = 0
-    # print(img)
     print(img)
     A1 = sigmoid(np.dot(W1, img))
     A2 = sigmoid(np.dot(W2, A1))
