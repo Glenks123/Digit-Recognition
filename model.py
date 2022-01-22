@@ -33,12 +33,6 @@ class NeuralNetwork():
             return exps * (1 - exps)
         return exps
     
-    # def softmax(self, z, derivative=False):
-    #     exps = np.exp(x - x.max())
-    #     if derivative:
-    #         return exps / np.sum(exps, axis=0) * (1 - exps / np.sum(exps, axis=0))
-    #     return exps / np.sum(exps, axis=0)
-    
     def initialization(self):
         input_layer_size = self.sizes[0]
         hidden_1_size = self.sizes[1]
