@@ -63,7 +63,7 @@ class NeuralNetwork():
         
         # hidden layer 2 to the output layer
         params['Z3'] = np.dot(params['W3'], params['A2'])
-        params['A3'] = self.sigmoid(params['Z3']) # using softmax since it outputs a probability for each class label
+        params['A3'] = self.sigmoid(params['Z3'])
 
         return params['A3']
     
