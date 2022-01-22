@@ -4,7 +4,7 @@ import win32gui
 from PIL import ImageGrab, Image
 from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 # df = pd.read_csv('datasets/train.csv') # 42000x785
